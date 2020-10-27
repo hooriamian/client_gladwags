@@ -1,0 +1,573 @@
+@charset "utf-8";
+
+html {
+	background-color: #1EA7C1;
+}
+
+body {
+	max-width: 1030px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: arial;
+	background-color: #FFFFFF;
+	border: thick solid #1B606D;
+}
+
+footer {
+	width: 100%;
+	clear: left; 
+	background-color: #1B606D;
+	color: #FFFFFF;
+	font-style: normal;
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 0.9em;
+	font-family: Nobile, Verdana, Geneva, sans-serif;
+	line-height: 2em;
+	text-align: center;
+}
+
+h3
+{
+	font-family: Aladin, Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 3.1em;
+	color: #2C98AD;
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 1.2px 0px #D8D8D8;
+}
+
+.mainImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 15px;
+    width: 50%;
+}
+
+#quote {
+	text-align: center;
+	font-size: 2em;
+	margin: auto;
+	font-family: allura, Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-style: normal;
+	font-weight: 400;
+	padding: 10px;
+	display: block;
+}
+
+#gift {
+	text-align: center;
+	font-size: 1.3em;
+	margin-left: 250px;
+	margin-right: 250px;
+	margin-bottom: 15px;
+	font-family: acme;
+	font-style: normal;
+	font-weight: 400;
+	display: block;
+	-webkit-box-shadow: 0px 4px 2px 2px;
+	box-shadow: 0px 4px 2px 2px;
+	background-image: -webkit-linear-gradient(270deg,rgba(166,205,213,1.00) 0%,rgba(255,255,255,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(166,205,213,1.00) 0%,rgba(255,255,255,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(166,205,213,1.00) 0%,rgba(255,255,255,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(166,205,213,1.00) 0%,rgba(255,255,255,1.00) 100%);
+	color: #3697A9;
+	height: 30px;
+}
+
+div.homecontent
+{
+	dsplay: block;
+}
+
+
+#homeDesc p
+{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	float: left;
+	align-content: center;
+	text-align: justify;
+	width: 520px;
+	margin: 10px;
+	font-size: 18px;
+	color: #1B606D;
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+
+main #dogGroomer {
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    text-align: center;
+    float: left;
+    width: 400px;
+	height: 300px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #E0EDF0;
+    border-radius: 50%;
+}
+	
+main #dogGroomer h6
+{
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 16px;
+	line-height: 22px;
+    color: #1B606D;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+
+}
+
+#dogGroomer h4
+{
+	font-weight: bold;
+	color: #1B606D;
+	font-size: 23px;
+	margin-bottom: 0px;
+	margin-top: 30px;
+}
+
+#aboutDesc p
+{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-align: justify;
+	display: block;
+	overflow: auto;
+	font-size: 16px;
+	color: #1B606D;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
+	font-weight: normal;
+}
+
+
+#aboutpup {
+	border: thick double #1B606D;
+	display: block;
+	clear: both;
+	float: right;
+	margin-top: 50px;
+}
+
+#aboutTable
+{
+	border: thin solid #1B606D;
+	background-color: #C5EEF6;
+	text-align: center;
+	align-content: center;
+	margin-bottom: 10px;
+}
+
+#aboutTable th {
+	color: #FFFFFF;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-weight: bolder;
+	font-variant: small-caps;
+	font-size: 1em;
+	text-align: center;
+	text-decoration: underline;
+	border: medium solid #1B606D;
+	background-color: #1B606D;	
+	padding: 3px;
+}
+
+#aboutTable td {
+	color: #1B606D;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	border: thin solid #1B606D;
+	padding: 3px;
+}
+
+#jeanine
+{
+	border: thick double #1B606D;
+	display: block;
+	clear: both;
+	float: right;
+	margin-top: 10px;
+	margin-right: 8px;
+	margin-left: 8px;
+}
+
+#jeanineinfo
+{
+	color: #1B606D;
+	text-align: left;
+	font-size: 14.5px;
+	display: block;
+	overflow: inherit;
+	padding-right: 25px;
+	padding-left: 25px;
+	font-weight: normal;
+}
+
+#jane
+{
+	border: thick double #1B606D;
+	display: block;
+	clear: both;
+	float: left;
+	margin-top: 10px;
+	margin-right: 8px;
+	margin-left: 8px;
+}
+
+#janeinfo
+{
+	color: #1B606D;
+	text-align: left;
+	font-size: 14.5px;
+	display: block;
+	overflow: inherit;
+	padding-right: 25px;
+	padding-left: 25px;
+	font-weight: normal;
+}
+
+#erica
+{
+	border: thick double #1B606D;
+	display: block;
+	clear: both;
+	float: left;
+	margin-top: 10px;
+	margin-right: 8px;
+	margin-left: 8px;
+}
+
+#ericainfo
+{
+	color: #1B606D;
+	text-align: left;
+	font-size: 14.5px;
+	display: block;
+	overflow: inherit;
+	padding-top: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
+	font-weight: normal;
+}
+
+#tara
+{
+	border: thick double #1B606D;
+	display: block;
+	clear: both;
+	float: right;
+	margin-top: 10px;
+	margin-right: 8px;
+	margin-left: 8px;
+}
+
+#tarainfo
+{
+	color: #1B606D;
+	text-align: left;
+	font-size: 14.5px;
+	display: block;
+	overflow: inherit;
+	padding-top: 25px;
+	padding-right: 25px;
+	padding-left: 25px;
+	font-weight: normal;
+}
+
+#willy p
+{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-align: justify;
+	display: block;
+	overflow: auto;
+	font-size: 18px;
+	color: #2990A4;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	padding-right: 60px;
+	padding-left: 10px;
+	font-weight: bold;
+	margin-right: 200px;
+}
+
+#willypic {
+	border: thick double #1B606D;
+	display: block;
+	margin: 0 auto;
+	clear:both;
+	float: left;
+	margin-left: 200px;
+	margin-bottom: 10px
+}
+
+div #carouselExampleIndicators1
+{
+	padding: 15px;
+}
+
+div.carousel-caption {
+	
+}
+
+#servicespup {
+	border: thick double #1B606D;
+	display: block;
+	margin: 0 auto;
+}
+
+#payment {
+	clear: both;
+	display: block;
+	color: #2C98AD;
+	font-family: Acme, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-variant: small-caps;
+	font-size: 20px;
+	text-align: center;
+	border-width: medium;
+	border-style: dotted;
+	background-color: #E6E9ED;
+	margin-right: 270px;
+	margin-top: 10px;
+	margin-left: 270px;
+}
+
+#services {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-align: justify;
+	font-size: 18px;
+	color: #1B606D;
+	line-height: 16px;
+}
+
+#services2 {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-align: center;
+	font-size: 16px;
+	color: #1B606D;
+	line-height: 25px;
+	font-weight: normal;
+}
+
+ul{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-align: justify;
+	font-size: 15px;
+	font-weight: bold;
+	color: #2C98AD;
+	list-style-image: url(images/pawbullet.png);
+	line-height: 16px;
+}
+
+#servicesTable {
+	border: thin solid #1B606D;
+	background-color: #C5EEF6;
+	text-align: center;
+	align-content: center;
+}
+
+#servicesTable th {
+	color: #1B606D;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-weight: bolder;
+	font-variant: small-caps;
+	font-size: 1em;
+	text-align: center;
+	text-decoration: underline;
+	border: medium solid #1B606D;
+	background-color: #C5EEF6;	
+	padding: 3px;
+}
+
+#servicesTable td {
+	color: #1B606D;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	border: thin solid #1B606D;
+	padding: 3px;
+}
+
+#specials
+{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-align: justify;
+	display: block;
+	font-size: 18px;
+	color: #1B606D;
+	line-height: 28px;
+	margin-bottom: 20px;
+}
+
+#daycare
+{
+	font-family: Aladin, Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 1.8em;
+	color: #1B606D;
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 1.2px 0px #D8D8D8;
+}
+
+#doggydaycare {
+    background-color: #F1F2F5;
+	display: block;
+	clear: both;
+	float: left;
+	margin: 8px;
+	padding-top: 3px;
+	padding-bottom: 2px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+#contact
+{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-align: left;
+	display: block;
+	font-size: 18px;
+	font-weight: normal;
+	color: #1B606D;
+	line-height: 34px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	list-style-image: url("images/pawbullet.png");
+}
+
+div.contactcontent {
+	display: block;
+	align-content: center;
+	margin-top: 20px;
+}
+
+.mapouter
+{
+	display: block;
+	text-align: center;
+	height:450px;
+	width:400px;
+	float: left;
+	margin-left: 35px;
+	margin-bottom: 20px;
+}
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	height:450px;
+	width:400px;
+	margin-left: 40px;
+}
+
+#salon
+{
+    float: right;
+    margin-right: 60px;
+    border: thick double #1B606D;
+}
+
+form
+{
+	align-content: center;
+}
+
+.form-group
+{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-align: justify;
+	font-weight: bold;
+	align-content: center;
+	font-size: 18px;
+	color: #1B606D;
+	line-height: 18px;
+	margin-top: `5px;
+	margin-bottom: 20px;
+	background-color: #F8F9FA;
+	width: 400px;
+	padding: 5px;
+	align-items: center;
+}
+
+.form-check-label 
+{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: #1B606D;
+}
+
+.btn
+{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color: #FFFFFF;
+	display: block;
+	text-align: center;
+	align-content: center;
+	background-color: #1B606D;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.specialsoptions
+{
+	display: block;
+	margin-top: 25px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color: #1B606D;
+	font-size: 1.1em;
+	
+}
+
+#newclients {
+	float: left;
+	width: 33.33%;
+	height: 50%;
+	text-align: center;
+	padding: 35px;
+	background-color: #EFF1F3;
+}
+
+#refer {
+	float: left;
+	width: 33.33%;
+	height: 50%;
+	text-align: center;
+	padding: 35px;
+	background-color: #C8EAF1;
+}
+
+#facebook {
+	float: left;
+	width: 33.33%;
+	height: 50%;
+	text-align: center;
+	padding: 35px;
+	background-color: #EFF1F3;
+}
+
+#testimonial {
+	float: left;
+	width: 33.33%;
+	height: 50%;
+	text-align: center;
+	padding: 35px;
+	background-color: #C8EAF1;
+}
+
+#return {
+	float: left;
+	width: 33.33%;
+	height: 70%;
+	text-align: center;
+	padding: 35px;
+	background-color: #EFF1F3;
+}
+
+#discount {
+	float: left;
+	width: 33.33%;
+	height: 50%;
+	text-align: center;
+	padding: 35px;
+	background-color: #C8EAF1;
+}
